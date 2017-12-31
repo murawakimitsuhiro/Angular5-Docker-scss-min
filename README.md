@@ -1,4 +1,14 @@
-# Angular5ScssMin
+# Angular5-Docker-scss-min
+
+Angularのプロジェクトをscss対応で作り、docker(nginx)で起動できるようにした最小構成です。
+
+## Docker起動手順
+
+`docker build -t angular5-scss-docker-min .`
+
+`docker run  -d -p 8080:80 angular5-scss-docker-min`
+
+これで立ち上がります。 -> http://localhost:8080/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
